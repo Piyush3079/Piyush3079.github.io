@@ -56,4 +56,4 @@ paginate_path: /page:num/
 disqus:
     # Leave shortname blank to disable comments site-wide.
     # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-    shortname: piyush3079
+    shortname: https-piyush3079-github-io

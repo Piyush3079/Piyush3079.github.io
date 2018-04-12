@@ -3,6 +3,7 @@ layout: post
 title: Stacks and Queues
 date: 2018-04-12 23:23:10 +0530
 categories: Data-Structures
+comments: true
 ---
 
 ### Stacks
