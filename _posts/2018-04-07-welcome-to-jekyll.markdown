@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Data Structures"
 date:   2018-04-07 21:35:10 +0530
 categories: jekyll update
 ---
