@@ -21,9 +21,8 @@ Your Name: `git config --global user.name "John Doe"`<br />
 Your Email: `git config --global user.email johndoe@example.com`<br />
 Checking you Global Settings: `git config --list`<br />
 Checking git version `git --version`<br />
-Git help `man git`
+Git help `man git`<br /><br />
 
-<br /><br />
 
 #### **Github:**
 [Github](https://help.github.com/) is a hosting service which provides you repositories for version control. So github is basically an online storage of you git repositories.
@@ -35,6 +34,17 @@ A repository (usually abbreviated to “repo”) is a location where all the fil
 “Forking” is when you create a new project based off of another project that already exists. This is an amazing feature that vastly encourages the further development of programs and other projects. If you find a project on GitHub that you’d like to contribute to, you can fork the repo, make the changes you’d like, and release the revised project as a new repo. If the original repository that you forked to create your new project gets updated, you can easily add those updates to your current fork.
 
 #### **Pull requests:**
-You’ve forked a repository, made a great revision to the project, and want it to be recognized by the original developers—maybe even included in the official project/repository. You can do so by creating a pull request. The authors of the original repository can see your work, and then choose whether or not to accept it into the official project. Whenever you issue a pull request, GitHub provides a perfect medium for you and the main project’s maintainer to communicate.
+You’ve forked a repository, made a great revision to the project, and want it to be recognized by the original developers—maybe even included in the official project/repository. You can do so by creating a pull request. The authors of the original repository can see your work, and then choose whether or not to accept it into the official project. Whenever you issue a pull request, GitHub provides a perfect medium for you and the main project’s maintainer to communicate.<br /><br />
 
-#### Adding public key to github
+#### **Adding public key to github**
+Generating SSH Key: `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`<br />
+When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location.<br />
+Enter the passphrase to be used to unlock the public key when used for the first time. <br />
+Adding ssh key to ssh agent:
+``` sh
+$ eval "$(ssh-agent -s)"
+$ ssh-add ~/.ssh/id_rsa
+```
+Getting ssh key: `cat ~/.ssh/id_rsa.pub`<br />
+Now login to your github account. Go to __Settings->SSH and GPG keys->New SSH Key__. Add desired title for the ssh key and the aste you ssh key and click on Add SSH Key.<br/>
+After successfull addition of the ssh key, you key will be shown up in the __SSH and GPG Keys__ section.
