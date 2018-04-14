@@ -13,23 +13,23 @@ Git helps you contributing in some of the most famous open source projects like 
 Documentation: [https://git-scm.com/](https://git-scm.com/ "Git SCM Docs")<br /><br /><br />
 
 
-#### How to install git in linux
+#### **How to install git in linux?**
 `sudo apt-get install git`<br />
 
-#### Git basic configurations
+#### **Git basic configurations:**
 Your Name: `git config --global user.name "John Doe"`<br />
 Your Email: `git config --global user.email johndoe@example.com`<br />
 Checking you Global Settings: `git config --list`
 
 <br /><br />
 
-#### Github 
+#### **Github:**
 Github is a hosting service which provides you repositories for version control. So github is basically an online storage of you git repositories.
 
-#### Git Repository
+#### **Git Repository:**
 A repository (usually abbreviated to “repo”) is a location where all the files for a particular project are stored. Each project has its own repo, and you can access it with a unique URL.
 
-#### Forking a Repo
+#### **Forking a Repo:**
 “Forking” is when you create a new project based off of another project that already exists. This is an amazing feature that vastly encourages the further development of programs and other projects. If you find a project on GitHub that you’d like to contribute to, you can fork the repo, make the changes you’d like, and release the revised project as a new repo. If the original repository that you forked to create your new project gets updated, you can easily add those updates to your current fork.
 
 #### **Pull requests:**
