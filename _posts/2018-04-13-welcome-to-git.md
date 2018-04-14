@@ -62,3 +62,7 @@ After successfull addition of the ssh key, you key will be shown up in the __SSH
 | `git commit -m "<message>"` | To make a commit for the changes you have made with a message. |
 | `git commit -S -m "<message>"` | To make a GPG key signed commit for the changes you have made. |
 | `git push origin <branch_name>` | To push the changes to the branch in the repo on which you are working. |
+| `git status` |Gives the status of the repository and untracked or unstaged files. |
+| `git branch` | Gives the list of all the branches. |
+| `git checkout -b <branch_name>` | Create a new branch in the repository. |
+| `git checkout <branch_name>` | Swith to the branch with banch name branch_name. |
