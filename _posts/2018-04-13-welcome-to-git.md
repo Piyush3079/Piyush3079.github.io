@@ -46,5 +46,6 @@ $ eval "$(ssh-agent -s)"
 $ ssh-add ~/.ssh/id_rsa
 ```
 Getting ssh key: `cat ~/.ssh/id_rsa.pub`<br />
-Now login to your github account. Go to __Settings->SSH and GPG keys->New SSH Key__. Add desired title for the ssh key and the aste you ssh key and click on Add SSH Key.<br/>
+After running above script copy your ssh key.
+Now login to your github account. Go to __Settings->SSH and GPG keys->New SSH Key__. Add desired title for the ssh key and then paste the copied ssh key to the 2nd input box and click on Add SSH Key.<br/>
 After successfull addition of the ssh key, you key will be shown up in the __SSH and GPG Keys__ section.
