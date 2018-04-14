@@ -50,9 +50,15 @@ After running above script copy your ssh key.
 Now login to your github account. Go to __Settings->SSH and GPG keys->New SSH Key__. Add desired title for the ssh key and then paste the copied ssh key to the 2nd input box and click on Add SSH Key.<br/>
 After successfull addition of the ssh key, you key will be shown up in the __SSH and GPG Keys__ section.
 
-Some useful git commands:
+#### **Some useful git commands:**
 
 | Command | Usage |
 |`git init`| Initialising a git repository in the woking directory. |
 | `git remote add origin` | Adding origin for the repository on github. |
 | `git remote -v` | To know about the remote origins of the repo. |
+| `git remote remove origin` | To remove oigin of the github repo from current git enabled directoy. |
+| `git add -A` or `git add .` | To add all the unstaged or untracked files. |
+| `git add <filename>` | To add a particular file to stage or to track. |
+| `git commit -m "<message>"` | To make a commit for the changes you have made with a message. |
+| `git commit -S -m "<message>"` | To make a GPG key signed commit for the changes you have made. |
+| `git push origin <branch_name>` | To push the changes to the branch in the repo on which you are working. |
