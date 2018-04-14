@@ -49,3 +49,10 @@ Getting ssh key: `cat ~/.ssh/id_rsa.pub`<br />
 After running above script copy your ssh key.
 Now login to your github account. Go to __Settings->SSH and GPG keys->New SSH Key__. Add desired title for the ssh key and then paste the copied ssh key to the 2nd input box and click on Add SSH Key.<br/>
 After successfull addition of the ssh key, you key will be shown up in the __SSH and GPG Keys__ section.
+
+Some useful git commands:
+
+| Command | Usage |
+|`git init`| Initialising a git repository in the woking directory. |
+| `git remote add origin` | Adding origin for the repository on github. |
+| `git remote -v` | To know about the remote origins of the repo. |
